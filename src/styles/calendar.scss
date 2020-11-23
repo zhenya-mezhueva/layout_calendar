@@ -25,6 +25,7 @@
 
   .calendar :nth-child(#{$i}):hover {
     background-color: pink;
+    cursor: pointer;
     transform: translate(0, -20px);
     transition: background-color 500ms, transform 500ms;
   }
@@ -46,7 +47,7 @@ $week: (
   wed: 2,
   thu: 3,
   fri: 4,
-  sut: 5,
+  sat: 5,
   sun: 6
 );
 
